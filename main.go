@@ -10,6 +10,7 @@ import (
 //go:embed template
 var tmplFS embed.FS
 
+// Comment
 func main() {
 	mux := http.NewServeMux()
 
